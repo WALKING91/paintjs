@@ -4,10 +4,8 @@ const colors = document.getElementsByClassName("jsColor");
 const range = document.getElementById("jsRange");
 const mode = document.getElementById("jsMode");
 const saveBtn= document.getElementById("jsSave");
-
 const INIITAL_COLOR = "black";
 const CANVAS_SIZE = 700;
-
 canvas.width=CANVAS_SIZE;
 canvas.height=CANVAS_SIZE;
 
