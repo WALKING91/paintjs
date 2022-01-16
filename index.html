@@ -10,7 +10,22 @@
     </head>
 
     <body>
+        <h1>걷기왕의 첫번째 실습</h1>
+        <h2>캔버스에 그림그리기, 텍스트삽입, 이미지불러오기</h2>                    
+
         <canvas id="jsCanvas" class="canvas"></canvas>
+
+        <!-- <div id="box">
+            <input 
+                 type="file"          
+                 onchange="handleCallClick()"><br>
+            <img src="" height="100" alt="Image preview..">
+        </div> -->
+         
+        
+
+     
+
         <div class="controls">
             <div class="controls_range">
                 <input 
@@ -25,7 +40,9 @@
             </div>
             <div class="controls_btns">
                 <button id="jsMode">Fill</button>
-                <button id="jsSave">Save</button>
+                <button id="jsSave">Save</button>    
+                <button id="jsCall">Call</button>       
+                               
             </div>
         
             <div class="controls_colors" id="jsColors">
@@ -41,5 +58,6 @@
             </div>
         </div>
         <script src="app.js"></script>
+      
     </body>
 </html>
